@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://MS-USER-MANAGEMENT
+          predicates:
+            Path=/api/users/**
+

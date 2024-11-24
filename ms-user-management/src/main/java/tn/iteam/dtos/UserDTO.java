@@ -18,9 +18,8 @@ public class UserDTO {
     private String email;
     private String phoneNumber;
     private String password;
-    private Adresse address;
+    private String cin;
 
-    @JsonIgnore
-    private MultipartFile image;
+
 
 }
